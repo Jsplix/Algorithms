@@ -13,15 +13,23 @@ def bfs():
         if v == m:
             print(dist[v])
             exit()
+<<<<<<< HEAD
         for np in [2 * v, v - 1, v + 1]: 
             # 원래는 [v - 1, v + 1, 2 * v] 였는데 2 * v가 가장 마지막이라서 그전에 다른 연산으로 도착하는 경우가 발생 (2 7)
             # 2 * v로 충분히 더 빨리 도착할 수 있는데 다른 연산을 통해 먼저 도착해서
             # 2 * v일 때 가장 최소시간으로 움직이므로 가장 먼저 처리해주니까 solve 나옴
+=======
+        for np in [v - 1, v + 1, 2 * v]:
+>>>>>>> 6fe3afe6c518b4b320a218c83697702310cba833
             if 0 <= np <= 100000 and not dist[np]:
                 if np == 2 * v:
                     queue.append(2 * v)
                     dist[np] = dist[v]
+<<<<<<< HEAD
                 elif dist[np] == 0:
+=======
+                else:
+>>>>>>> 6fe3afe6c518b4b320a218c83697702310cba833
                     queue.append(np)
                     dist[np] = dist[v] + 1
 bfs()
