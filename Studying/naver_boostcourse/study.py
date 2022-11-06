@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# BOJ 1927 최소 힙
 n = int(input())
 arr = []
 for _ in range(n):
