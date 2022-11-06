@@ -22,7 +22,7 @@ def dfs(now, depth):
 
 n = int(input())
 tree = [ [0, 0, 0, 0, 0] for i in range(n + 1) ]
-# left, right, parent, depth, width
+# 0 = left, 1 = right, 2 = parent, 3 = depth, 4 = width
 for _ in range(n):
     node, left, right = map(int, input().split())
     if left == -1:
