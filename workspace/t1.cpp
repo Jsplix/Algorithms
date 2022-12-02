@@ -3,5 +3,11 @@
 using namespace std;
 
 int main(void) {
-    cout << "Hello World!" << endl;
+    int n; cin >> n;
+    int* arr;
+    arr = new int[n];
+    for (int i = 0; i < n; i++) {
+        cin >> *arr;
+    }
+    
 }
