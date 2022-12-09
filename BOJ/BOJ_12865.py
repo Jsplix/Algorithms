@@ -12,8 +12,8 @@ for _ in range(n):
     v.append(b)
 
 for i in range(1, n + 1):
-    for j in range(1, k + 1):
-        if j < w[i]: # j는 현재 가방 용량
+    for j in range(1, k + 1): # j는 현재 가방의 용량
+        if j < w[i]: # 가방의 용량을 증가시키면서 들어갈 수 있는 물건을 확인함 / w[i]는 i번째 물건의 무게
             dp[i][j] = dp[i - 1][j]
         else:
             dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - w[i]] + v[i])
