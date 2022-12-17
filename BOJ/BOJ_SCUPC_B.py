@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ_SCUPC_B] 26265 멘토와 멘티 / 정렬
 n = int(input())
 mm_list = []
 
