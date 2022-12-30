@@ -12,7 +12,7 @@ while start <= end:
     chk = 0
     for i in range(1, n + 1): # 오름차순 정렬이므로 1부터 해줌
         chk += min(mid // i, n) # 1부터 n까지 각 수들이 몇개씩 있는지 (k전까지) 확인
-    
+    # k 이전의 값들은 k보다 작은 값이므로, k보다 작은 수의 곱이 몇개인지 확인함으로써 문제를 해결
     if chk >= k:
         ans = mid
         end = mid - 1
