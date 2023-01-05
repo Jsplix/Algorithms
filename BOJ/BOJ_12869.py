@@ -26,7 +26,7 @@ damage = [9, 3, 1]
 n = int(input())
 hp = list(map(int, input().split()))
 dp = [[[0 for _ in range(61)] for _ in range(61)] for _ in range(61)]
-ans = 100
+ans = int(1e9)
 
 if n == 2:
     hp.append(0)
