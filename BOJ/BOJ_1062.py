@@ -7,6 +7,13 @@ std = ['a', 'c', 'i', 'n', 't']
 chk = [ 0 for _ in range(26) ]
 ans = 0
 
+if k <= 5:
+    print(0)
+    exit()
+elif k == 26:
+    print(n)
+    exit()
+
 for c in std:
     chk[ord(c) - ord('a')] = 1
 
