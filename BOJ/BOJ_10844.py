@@ -1,3 +1,4 @@
+# [BOJ] 10844 쉬운 계단 수 / DP
 N = int(input())
 
 dp = [[0]*10 for _ in range(N+1)]
