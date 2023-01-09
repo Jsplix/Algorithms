@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-# [BOJ] 11051 이항 계수 2 - DP
+# [BOJ] 11051 이항 계수 2 / DP
 n, r = map(int, input().split())
 c = [ [0 for _ in range(1001)] for _ in range(n + 1) ]
 for i in range(n + 1): # c[n][r]
