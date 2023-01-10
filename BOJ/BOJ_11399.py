@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 11399 ATM / 그리디, 정렬
 n = int(input())
 sp_time = list(map(int, input().split()))
 sp_time.sort()
