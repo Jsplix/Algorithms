@@ -1,7 +1,7 @@
 from collections import deque
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 1261 알고스팟 / 다익스트라, BFS, 그래프 이론
 n, m = map(int, input().split())
 maze = []
 for i in range(m):
