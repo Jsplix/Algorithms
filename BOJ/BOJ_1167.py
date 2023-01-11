@@ -1,6 +1,7 @@
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10**6)
+# [BOJ] 1167 트리의 지름 / 트리, DFS
 # keypoint는 1에서부터의 최대 거리와 최대 거리를 가진 곳부터 다시 최대거리를(총 2번) 구하는 것.
 # r1, r2를 -1로 초기화해주는 이유 -> 0으로 해줄 경우 최대 거리를 가진 곳에서
 # DFS를 처리하면 본인으로 되돌아오게 됨 (그 때가 당연히 최대가 됨)
