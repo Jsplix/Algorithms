@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-# BOJ_11478_서로 다른 부분 문자열의 개수
+# [BOJ] 11478 서로 다른 부분 문자열의 개수 / 자료 구조, 문자열
 s = input().rstrip()
 ans = []
 for i in range(len(s)):
