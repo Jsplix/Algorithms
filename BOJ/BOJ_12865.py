@@ -1,11 +1,10 @@
 import sys
 input = sys.stdin.readline
-# [BOJ] 12865 평범한 배낭 / DP, Knapsack
+# [BOJ] 12865 평범한 배낭 / DP, Knapsack(냅색)
 n, k = map(int, input().split())
 w, v = [0], [0]
 dp = [ [0 for _ in range(k + 1)] for _ in range(n + 1) ] 
 # dp[i] - 순서 / dp[i][j] - i번째까지의 가방 무게 (가치가 최대가 되는)
-
 for _ in range(n):
     a, b = map(int, input().split())
     w.append(a)
