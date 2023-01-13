@@ -1,7 +1,6 @@
-# BOJ_14425 문자열 집합
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 14425 문자열 집합 / 자료 구조, 문자열, 해시
 n, m = map(int, input().split())
 init_dict = {}
 for _ in range(n):
