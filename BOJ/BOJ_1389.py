@@ -1,7 +1,9 @@
 import sys
 input = sys.stdin.readline
+
 # [BOJ] 1389 케빈 베이컨의 6단계 법칙 / BFS, 그래프 이론, 플로이드 와샬
 # 플로이드 와샬로도 풀 수 있음 O(N**3)의 시간복잡도를 갖지만 이 문제의 N의 최대 크기는 100이므로 충분히 가능.
+
 def dfs(idx):
     global i
     for v in graph[idx]:
