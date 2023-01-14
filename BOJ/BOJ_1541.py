@@ -1,6 +1,7 @@
 import sys
 input = sys.stdin.readline
 # [BOJ] 1541 잃어버린 괄호 / 그리디, 문자열, 파싱
+
 f = input().rstrip().split('-')
 n = []
 for i in range(len(f)):
