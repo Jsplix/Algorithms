@@ -1,4 +1,4 @@
-# [BOJ] 11725 - 트리의 부모 찾기 / DFS, Tree, Graph
+# [BOJ] 11725 트리의 부모 찾기 / DFS, 트리, 그래프 이론
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10**7)
