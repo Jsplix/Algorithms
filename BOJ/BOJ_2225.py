@@ -1,7 +1,6 @@
-# BOJ_2225_합분해
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 2225 합분해 / 수학, DP
 MOD = 1000000000
 n, k = map(int, input().split())
 dp = [[0] * (201) for _ in range(201)]
