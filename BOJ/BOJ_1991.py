@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 1991 트리 순회 / 트리, 재귀
 class Node:
     def __init__(self, data, left, right):
         self.data = data
