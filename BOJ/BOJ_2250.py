@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-# BOJ_2250_트리의 높이와 너비
+# [BOJ] 2250 트리의 높이와 너비 / 그래프 이론, 그래프 탐색, DFS, 트리
 def in_order(node):
     global order
     if node:
