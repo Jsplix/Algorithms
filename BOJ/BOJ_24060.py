@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 24060 알고리즘 수업 - 병합 정렬 1 / 병합 정렬, 재귀, 구현
 def merge_sort(arr):
     if len(arr) == 1:
         return arr
