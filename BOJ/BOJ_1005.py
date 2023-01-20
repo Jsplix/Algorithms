@@ -24,10 +24,8 @@ for _ in range(int(input())):
             queue.append(i)
             dp[i] = d[i-1] # dp를 활용해 거리 저장
 
-    path = []
     while queue:
         v = queue.popleft()
-        path.append(v)
         for i in graph[v]:
             inDegree[i] -= 1 # 큐에서 노드를 뺐으므로, 해당 노드의 진출과 이어진 노드는 진입 차수를 1씩 감소시켜줌
             dp[i] = max(d[i-1]+dp[v], dp[i]) # 최댓값을 선택하도록 함.
