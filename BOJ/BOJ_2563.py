@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 2563 색종이 / 구현
 n = int(input())
 board = [ [0 for _ in range(100)] for _ in range(100) ]
 for _ in range(n):
