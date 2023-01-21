@@ -1,7 +1,6 @@
-# BOJ_25501_재귀의 귀재 / Recursion
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 25501 재귀의 귀재 / 재귀
 def isPalindrome(s, l, r):
     global call_time
     call_time += 1
