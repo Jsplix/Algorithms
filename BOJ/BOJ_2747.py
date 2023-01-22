@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 2747 피보나치 수 / 수학, 구현
 n = int(input())
 fibo = [0 for _ in range(46)]
 fibo[1] = 1

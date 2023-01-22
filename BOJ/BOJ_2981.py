@@ -1,8 +1,7 @@
-# [BOJ] 2981 검문
 import sys
 import math
 input = sys.stdin.readline
-
+# [BOJ] 2981 검문 / 수학, 정수론, 유클리드 호제법
 n = int(input())
 l = []
 Euclidean = 0

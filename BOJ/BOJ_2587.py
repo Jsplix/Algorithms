@@ -1,7 +1,6 @@
-# 2587 대표값2
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 2587 대표값2 / 수학, 구현, 정렬
 l = []
 for i in range(5):
     l.append(int(input()))
