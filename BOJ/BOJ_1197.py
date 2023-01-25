@@ -12,6 +12,8 @@ for _ in range(e):
 
 edges.sort(key=lambda x:x[2])
 
+# 유니온 파인드 알고리즘을 사용하여 크루스칼 알고리즘 구현
+
 def find(x):
     if x != vertex[x]:
         vertex[x] = find(vertex[x])
