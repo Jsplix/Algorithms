@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 11047 동전 0 / 그리디
 n, k = map(int, input().split())
 coin = []
 for i in range(n):

@@ -1,7 +1,7 @@
 from collections import deque
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 13913 숨바꼭질 4 / 그래프 이론, BFS
 n, k = map(int, input().split())
 cnt = 0
 pos = [0 for _ in range(100001)]

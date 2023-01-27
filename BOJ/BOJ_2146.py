@@ -1,7 +1,7 @@
 from collections import deque
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 2146 다리 만들기 / 그래프 이론, 그래프 탐색, BFS
 n = int(input())
 visited = [ [0 for _ in range(n)] for _ in range(n) ]
 island = [ list(map(int, input().split())) for _ in range(n) ]

@@ -1,7 +1,7 @@
 from collections import deque
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 14226 이모티콘 / 그래프 이론, BFS
 n = int(input())
 visited = [ [-1] * (n + 1) for _ in range(n + 1) ]
 

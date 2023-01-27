@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 1759 암호 만들기 / 수학, 브루트 포스, 조합론, 백트래킹
 vowel = ['a', 'e', 'o', 'u', 'i']
 
 def dfs(start):
