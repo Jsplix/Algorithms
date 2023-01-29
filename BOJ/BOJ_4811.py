@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 4811 알약 / DP
 dp = [[0 for _ in range(31)] for _ in range(31)]
 for i in range(31):
     for j in range(31):
