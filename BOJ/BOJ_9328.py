@@ -3,6 +3,10 @@ from curses.ascii import isalpha, isupper
 import sys
 input = sys.stdin.readline
 # [BOJ] 9328 열쇠 / 구현, 그래프 이론, 그래프 탐색, BFS
+
+# 가로, 세로를 확장해줘야 함 -> 빌딩을 나갔다 다시 들어오는 경우 때문에
+# 확장하지 않고 그냥 빌딩의 입구를 for문을 통해서 찾아서 queue에 넣게 되면
+# 처음에는 열쇠가 없지만 후에 열쇠가 생겨도 들어가지 못함
 def bfs(visited):
     global answer
     queue = deque([(0, 0)])
