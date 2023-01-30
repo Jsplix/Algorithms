@@ -12,6 +12,7 @@
             "command": "g++",
             "args": [
                 "${file}",
+                "-g",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
@@ -36,6 +37,7 @@
             "command": "gcc",
             "args": [
                 "${file}",
+                "-g",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
@@ -88,6 +90,7 @@
             "label": "C/C++: g++.exe 활성 파일 빌드",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
+                "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
@@ -99,38 +102,11 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
-//            "group": {
-//               "kind": "build",
-//                "isDefault": true
-//            },
-            
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "detail": "디버거에서 생성된 작업입니다."
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: gcc.exe 활성 파일 빌드",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-              
-            // "group": {
-            //     "kind": "build",
-            //     "isDefault": true
-            // },
-
-            "detail": "컴파일러: C:\\MinGW\\bin\\gcc.exe"
         }
     ]
 }
