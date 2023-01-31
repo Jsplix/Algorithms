@@ -4,6 +4,7 @@
 # 파일 무시
 t1.cpp
 t1.py
+.cph
 
 ### C++ ###
 # Prerequisites
