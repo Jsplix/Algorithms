@@ -19,6 +19,7 @@ while left <= right:
             withdraw_cnt += 1
         k -= money[i]
     
+    # 인출 횟수가 m번보다 많거나 인출 금액이 하루를 사용하기에 부족한 경우
     if withdraw_cnt > m or mid < max(money):
         left = mid + 1
     else:
