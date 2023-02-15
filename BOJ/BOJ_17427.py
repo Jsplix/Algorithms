@@ -6,4 +6,4 @@ answer = 0
 for x in range(1, n+1):
     answer += (n//x)*x
 print(answer)
-# [BOJ] 1676 과 동일한 메커니즘. n / i (i는 자연수) 는 n에서 i의 약수의 개수는 n/i이다.
+# [BOJ] 1676 과 동일한 메커니즘. n / i (i는 자연수) 는 n에서 i의 약수의 개수이다.
