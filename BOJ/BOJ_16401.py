@@ -4,21 +4,16 @@ input = sys.stdin.readline
 m, n = map(int, input().split())
 snack_len = list(map(int, input().split()))
 
-start = 0
-end = max(snack_len)
+start = 1
+end = int(1e9)+1
 ans = 0
 
-# 이분탐색을 통해서 어떤 길이로 과자를 나눠줄지 결정
-while start <= end: 
+while start <= end:
     chk = 0
     mid = (start + end) // 2
-    if mid == 0:
-        ans = 0
-        break
 
     for x in snack_len:
-        if x >= mid:
-            chk += (x // mid)
+        chk += (x // mid)
     
     if chk >= m:
         start = mid + 1
