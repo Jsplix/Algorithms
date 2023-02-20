@@ -38,7 +38,7 @@ if n == m == 1:
     exit(0)
 
 visited = [[[0 for _ in range(m)] for _ in range(n)] for _ in range(2)] # [i][j][k] -> [i: 0~1] => 0: 안부숨 / 1: 부숨
-mn = bfs(0, 0, 1, 0) # 벽을 부수지 않을 때의 최솟값
+mn = bfs(0, 0, 1, 0)
 
 if mn == MAX: print(-1)
 else: print(mn)
