@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 3009 네번째 점 / 구현, 기하학
 x, y = [], []
 for i in range(3):
     a, b = map(int, input().split())
