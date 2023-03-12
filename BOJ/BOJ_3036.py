@@ -1,7 +1,7 @@
-# [BOJ] 3036 링 - 정수론, 조합론
 import sys
 import math
 input = sys.stdin.readline
+# [BOJ] 3036 링 / 수학, 정수론, 유클리드 호제법
 # 기약분수는 분모, 분자의 최대공약수를 구해서 각각 나눠주면 된다
 # ex) (분자 / 최대공약수) / (분모 / 최대공약수)
 n = int(input())
