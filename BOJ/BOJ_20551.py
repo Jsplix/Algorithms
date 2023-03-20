@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-# [20551] Sort 마스터 배지훈의 후계자 / 이분 탐색, 정렬, 자료 구조
+# [BOJ] 20551 Sort 마스터 배지훈의 후계자 / 이분 탐색, 정렬, 자료 구조
 n, m = map(int, input().split())
 arr = [int(input()) for _ in range(n)]
 arr.sort()
