@@ -21,7 +21,7 @@ def dijkstra(s):
     while priq:
         val, cur = heappop(priq)
         if dist[cur] < val: continue
-        for i in graph[cur]:
+        for i in graph[cur]: # i[0] - 노드 / i[1] - 가중치
             w = val + i[1]
             if w < dist[i[0]]:
                 dist[i[0]] = w
