@@ -13,7 +13,7 @@ for _ in range(r):
     graph[b].append((a, d))
 
 def dijkstra(s):
-    dist = dist = [INF for _ in range(n+1)]
+    dist = [INF for _ in range(n+1)]
     dist[s] = 0
     priq = []
     heappush(priq, (0, s))
