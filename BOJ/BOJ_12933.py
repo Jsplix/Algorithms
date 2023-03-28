@@ -17,7 +17,8 @@ def solve(start):
             idx += 1
             visited[i] = 1 # 한 마리가 여러번 우는 것은 visited 처리만 함
             if crying_sound[i] == 'k':
-                if check: duck += 1; check = False # 이 check 부분을 통해서 건너뜀
+                if check: duck += 1; check = False # check 부분을 통해서 건너뜀, 
+                # 첫 울음소리가 끝나면 False되고, 그 이후는 해당 오리의 다른 울음 소리만 확인하고 넘어감
                 idx = 0
                 continue
             # idx += 1
