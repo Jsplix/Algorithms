@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-# [BOJ] 합 구하기 / 누적 합
+# [BOJ] 11441 합 구하기 / 누적 합
 n = int(input())
 arr = list(map(int, input().split()))
 accum_arr = [0 for _ in range(n+1)]
