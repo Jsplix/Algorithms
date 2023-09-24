@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# [BOJ] 29722 브실혜성 / 수학, 구현
 year, month, day = map(int, input().split('-'))
 n = int(input())
 
