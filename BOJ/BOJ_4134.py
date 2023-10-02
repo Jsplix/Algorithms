@@ -1,12 +1,13 @@
-from math import log2
+from math import isqrt, sqrt
 import sys
 input = sys.stdin.readline
 
 # [BOJ] 4134 다음 소수 / 브루트 포스, 정수론, 수학, 소수 판정
-# sqrt()는 실수형이기 때문에 오차 존재 -> **0.5로 풀어야 함 (맞왜틀 이유)
+# **0.5 보다는 sqrt()가 더 정확함. 그러나, 속도측면에서 isqrt가 sqrt보다 빠름
+# 심지어 isqrt는 정수로 반환해줌.
 
 MAX = int(4e9)
-r = int(MAX**0.5)+1
+r = isqrt(MAX)+1
 
 def Eratosthenes():
     Sieve = [0, 0]
