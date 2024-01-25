@@ -7,7 +7,7 @@ def back(x, k, seq, now: list): # x자리 k로 시작하는 seq번째 수
         chk += 1
         if chk == seq: 
             print(''.join(map(str, now)))
-            # exit(0)
+            exit(0)
         return
     
     for i in range(k, -1, -1):
