@@ -42,7 +42,7 @@ def bfs():
                     visited[ny][nx] = 1
                     if w == 'J': maze[y][x], maze[ny][nx] = maze[ny][nx], w
                     elif w == 'F': maze[ny][nx] = 'F'
-        move[(x, y)] = 0
+        if w == 'J': move[(x, y)] = 0
 
 bfs()
 if chk: print(min(chk))
