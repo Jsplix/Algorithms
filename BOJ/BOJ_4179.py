@@ -34,7 +34,6 @@ def bfs():
                         if maze[ny][nx] == 'J': move[(nx, ny)] = 0 ; continue 
                 elif not visited[ny][nx] and maze[ny][nx] != '#':
                     if w == 'J': 
-                        # if nx == 0 or nx == c-1 or ny == 0 or ny == r-1: chk.append(cnt + 1)
                         queue.append((nx, ny, w, cnt + 1))
                         move[(nx, ny)] = 1
                     elif w == 'F': 
@@ -43,6 +42,7 @@ def bfs():
                     visited[ny][nx] = 1
                     if w == 'J': maze[y][x], maze[ny][nx] = maze[ny][nx], w
                     elif w == 'F': maze[ny][nx] = 'F'
+        move[(x, y)] = 0
 
 bfs()
 if chk: print(min(chk))
