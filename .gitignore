@@ -2,6 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudiocode
 
 # 파일 무시
+t1.txt
 t1.cpp
 t1.py
 .cph
