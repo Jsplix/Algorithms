@@ -7,6 +7,7 @@ t1.cpp
 t1.py
 .cph
 settings.json
+.gitignore.swp
 ### C++ ###
 # Prerequisites
 *.d
@@ -42,6 +43,7 @@ settings.json
 *.app
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
