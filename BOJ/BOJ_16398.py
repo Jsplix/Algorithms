@@ -1,6 +1,8 @@
 import sys
 input = sys.stdin.readline
+
 # [BOJ] 16398 행성 연결 / 그래프 이론, 최소 스패닝 트리, 크루스칼
+
 n = int(input())
 cost = [list(map(int, input().split())) for _ in range(n)]
 edges = []
