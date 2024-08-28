@@ -1,7 +1,7 @@
 import sys
 input = sys.stdin.readline
 # [BOJ] 1701 Cubeditor / 문자열, kmp
-# 부분 문자열 찾는 메소드
+# 부분 문자열 찾는 메소드 - KMP 알고리즘
 def solve(param: str):
     
     check = [0 for _ in range(len(param))]
