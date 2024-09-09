@@ -6,7 +6,7 @@ arr = list(map(int, input().split()))
 
 dp = [0 for _ in range(n)]
 mn = arr[0]
-
+# mn은 이전까지의 arr의 최솟값을 저장
 for i in range(1, n):
     mn = min(arr[i], mn)
     dp[i] = max(dp[i-1], arr[i]-mn)
