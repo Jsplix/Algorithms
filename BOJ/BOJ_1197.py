@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+sys.setrecursionlimit(10**7)
 # [BOJ] 1197 최소 스패닝 트리 / 최소 신장 트리(MST), 그래프 이론, 크루스칼, 유니온-파인드
 
 v, e = map(int, input().split())
