@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-# [BOJ_SCUPC_A] 26264 빅데이터? 정보보호! / 문자열
+# [BOJ] 26264 빅데이터? 정보보호! / 문자열
 n = int(input())
 q = input().rstrip()
 
