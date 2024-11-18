@@ -7,6 +7,8 @@ t1.cpp
 t1.py
 .cph
 settings.json
+.idea
+
 ### C++ ###
 # Prerequisites
 *.d
