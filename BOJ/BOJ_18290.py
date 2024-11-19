@@ -9,7 +9,7 @@ def back(nr, nc, check, val):
         return
 
     for r in range(nr, n):
-        for c in range(nc if r == nr else 0, m):
+        for c in range(nc if r == nr else 0, m): # 같은 행일 경우 열 정보를 받고, 다른 행일 경우 모든 열을 확인할 수 있게 함
             if visited[r][c]: continue
 
             temp = 0
