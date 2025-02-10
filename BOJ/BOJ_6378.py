@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-# 6378 디지털 루트 / 수학, 구현, 임의 정밀도, 큰 수 연산
+# [BOJ] 6378 디지털 루트 / 수학, 구현, 임의 정밀도, 큰 수 연산
 while True:
     num = input().rstrip()
     
