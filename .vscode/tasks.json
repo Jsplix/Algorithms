@@ -11,6 +11,7 @@
             "label": "save and compile for C++",
             "command": "g++",
             "args": [
+                "-std=c++17",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
@@ -88,6 +89,7 @@
             "label": "C/C++: g++.exe 활성 파일 빌드",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
+                "-std=c++17",
                 "-g",
                 "${file}",
                 "-o",
